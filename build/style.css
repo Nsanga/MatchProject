@@ -1,0 +1,141 @@
+html {
+    font-size: 63%;
+    font-family: 'Poppins', sans-serif;
+    background-color: #450d0d;
+}
+
+body {
+    font-size: 1.6rem;
+    display: block;
+    margin: auto;
+}
+#container{
+    position: relative;
+    top: 5vmin;
+    display: block;
+      
+}
+.logo{
+    width: 70px;
+    height: 100px;
+    float: left;
+    margin-top: -3vmin;
+    margin-left: 5vmin;
+    background-size: 100% 100%;
+    background-image: url(assets/logo.png);
+}
+.ball{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    float: right;
+    background-size: 100% 100%;
+    background-image: url(http://d3ugyf2ht6aenh.cloudfront.net/stores/001/859/841/products/copia_de_design_sem_nome-removebg-preview1-3b415c23aa7438d15716549740984260-640-0.png);
+}
+
+#jour{
+    position: relative;
+    font-size: 5rem;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+table{
+    width: auto;
+    margin: auto;
+    margin-top: 40px;
+    position: relative;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    left: 10vmin;
+    
+}
+
+td{
+    padding: 5px 10px;
+    text-align: center;
+}
+tbody tr{
+    
+    position: relative;
+    font-size: 1.6rem;
+    font-weight: bold;
+    cursor: pointer;    
+    width: auto;
+    margin: 35px;
+    border-radius:10px;
+    border: 1px solid #ccc;
+    background: rgb(226, 103, 8);
+    color: white;
+    display: block;
+    
+}
+tr:hover {
+    transform: translate(5px, 10px); 
+    background-color: #450d0d;
+    line-height: 50px;
+  }
+
+
+img{
+    justify-content: center;
+    align-items: center;
+    width: 130px;  
+}
+
+span{
+    font-size: 5rem;
+}
+.image{
+    width: 300px;
+    height: 300px;
+    background-size: 100% 100%;
+}
+.vide{
+    text-align: center;
+    font-weight: bold;
+}
+
+@media all and (max-width: 700px)
+
+{
+    .ball{
+        position: fixed;
+        display: block;
+        max-width: 100px;
+        height: 100px;
+        display: inline-block;
+        right: 0vmin;
+        float: none;
+    }
+ 
+
+    table{
+        width: auto;
+        top: 40vmin;
+        left: 0vmin;
+    }
+
+    .image{
+        width: 200px;
+        height: 200px;
+        float: none;
+    }
+    
+    #jour{
+        width: auto;
+        top: 40vmin;
+        font-size: 24px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    #container{
+        width: 100%;
+        display: block;
+    }
+
+}
