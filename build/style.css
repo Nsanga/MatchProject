@@ -110,6 +110,8 @@ span{
         justify-content: center;
         align-items: center;
         margin: auto;
+        left: 0vmin;
+        right: 0vmin;
     }
     tbody tr{    
         width: auto;
