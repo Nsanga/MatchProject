@@ -96,6 +96,9 @@ span{
 @media (max-width: 700px)
 
 {
+    table{
+        width: auto;
+    }
 
     .ball{
         max-width: 100px;
@@ -109,6 +112,7 @@ span{
         margin: auto;
     }
     tbody tr{    
+        width: auto;
         justify-content: center;
         align-items: center;
         display: block;
@@ -119,6 +123,9 @@ span{
         width: 200px;
         height: 200px;
         float: none;
+    }
+    #jour{
+        font-size: 24px;
     }
     
 
