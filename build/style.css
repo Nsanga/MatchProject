@@ -72,11 +72,6 @@ tbody tr{
     display: block;
     
 }
-tr:hover {
-    transform: translate(5px, 10px); 
-    background-color: #450d0d;
-    line-height: 50px;
-  }
 
 
 img{
@@ -102,7 +97,7 @@ span{
 
 {
     .ball{
-        position: fixed;
+        position: relative;
         display: block;
         max-width: 100px;
         height: 100px;
@@ -114,8 +109,14 @@ span{
 
     table{
         width: auto;
-        top: 40vmin;
+        top: 5vmin;
         left: 0vmin;
+    }
+    tbody tr{    
+        width: auto;
+        margin: 10px;
+        display: block;
+        
     }
 
     .image{
@@ -126,7 +127,7 @@ span{
     
     #jour{
         width: auto;
-        top: 40vmin;
+        top: 5vmin;
         font-size: 24px;
         text-align: center;
         justify-content: center;
