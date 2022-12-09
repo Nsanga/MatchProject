@@ -108,12 +108,12 @@ span{
     }
     
     table{
-        margin-top: 20vmin;
-        left: 0vmin;
+        justify-content: center;
+        align-items: center;
     }
     tbody tr{    
-        width: auto;
-        margin-bottom: 40px;
+        justify-content: center;
+        align-items: center;
         display: block;
         
     }
