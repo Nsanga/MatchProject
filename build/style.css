@@ -93,13 +93,24 @@ span{
     font-weight: bold;
 }
 
-@media all and (max-width: 700px)
+@media (max-width: 700px)
 
 {
+    body{
+        display: block;
+        margin: auto;
+    }
 
+    .ball{
+        max-width: 100px;
+        height: 100px;
+        float: right;
+    }
     
-    
-    
+    table{
+        margin-top: 20vmin;
+        left: 0vmin;
+    }
     tbody tr{    
         width: auto;
         margin-bottom: 40px;
@@ -107,8 +118,17 @@ span{
         
     }
 
+    .image{
+        width: 200px;
+        height: 200px;
+        float: none;
+    }
     
-    
+    #jour{
+        top: 5vmin;
+        font-size: 24px;
+        
+    }
     
 
 }
