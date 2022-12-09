@@ -1,18 +1,12 @@
 html {
-    font-size: 63%;
     font-family: 'Poppins', sans-serif;
     background-color: #450d0d;
+    display: block;
 }
 
-body {
-    font-size: 1.6rem;
-    display: block;
-    
-}
 #container{
     position: relative;
     top: 5vmin;
-    display: block;
       
 }
 .logo{
@@ -35,11 +29,10 @@ body {
 }
 
 #jour{
+    font-size: 2rem;
     position: relative;
-    font-size: 5rem;
     font-weight: bold;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
     color: white;
 }
 table{
@@ -50,7 +43,7 @@ table{
     border-radius: 10px;
     background-color: white;
     text-align: center;
-    
+    align-self: center;
     
 }
 
