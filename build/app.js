@@ -18,6 +18,7 @@ function display(data) {
     for (let key of data) {
         let hours = new Date(key.event_date).getHours();
         let minutes = new Date(key.event_date).getMinutes();
+        minutes = minutes > 9 ? minutes : '0' + minutes;
         table += `<tr>
                     <td><img src="${key.homeTeam.logo}"/>
                     <br><span>${key.homeTeam.team_name}</span></td>

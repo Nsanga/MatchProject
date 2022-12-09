@@ -111,7 +111,7 @@ span{
         
     }
     td img{
-        max-width: 50%; 
+        max-width: 100%; 
         height: auto; 
         margin: auto;
     }
@@ -137,6 +137,10 @@ span{
     #jour{
         font-size: 20px;
         top:5vmin;
+    }
+
+    #stade{
+        font-size: 10px;
     }
     
     
