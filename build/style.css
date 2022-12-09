@@ -107,9 +107,7 @@ span{
     }
     
     table{
-        justify-content: center;
-        align-items: center;
-        margin: auto;
+        padding: auto;
         left: 0vmin;
         right: 0vmin;
     }
