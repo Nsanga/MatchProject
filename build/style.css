@@ -50,6 +50,7 @@ table{
 td{
     padding: 5px 10px;
     text-align: center;
+    border-collapse: collapse;
 }
 tbody tr{
     
@@ -91,7 +92,16 @@ span{
 
 {
     table{
+        width: 100%;
+        margin: auto;
+    }
+    tr{
         width: auto;
+        margin: auto;
+    }
+    td{
+        width: auto;
+        margin: auto;
     }
 
     .ball{
@@ -100,18 +110,6 @@ span{
         float: right;
     }
     
-    table{
-        padding: auto;
-        left: 0vmin;
-        right: 0vmin;
-    }
-    tbody tr{    
-        width: auto;
-        justify-content: center;
-        align-items: center;
-        display: block;
-        
-    }
 
     .image{
         width: 200px;
