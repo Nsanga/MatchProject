@@ -6,8 +6,8 @@ html {
 
 body {
     font-size: 1.6rem;
-    display: block;
-    margin: auto;
+    
+    
 }
 #container{
     position: relative;
@@ -96,14 +96,23 @@ span{
 @media all and (max-width: 700px)
 
 {
+    body{
+        margin: auto;
+    }
+    #container{
+        position: relative;
+        top: 5vmin;
+        display: block;
+          
+    }
+
     .ball{
         position: relative;
         display: block;
         max-width: 100px;
         height: 100px;
         display: inline-block;
-        right: 0vmin;
-        float: none;
+        float: right;
     }
  
 
