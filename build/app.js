@@ -20,11 +20,11 @@ function display(data) {
         let minutes = new Date(key.event_date).getMinutes();
         table += `<tr>
                     <td><img src="${key.homeTeam.logo}"/>
-                    <br>${key.homeTeam.team_name}</td>
-                    <td><span>VS</span>
-                    <br><br>${hours+":"+minutes}</td>
+                    <br><span>${key.homeTeam.team_name}</span></td>
+                    <td>${hours+":"+minutes}
+                    <br><span>${key.venue}</span></td>
                     <td><img src="${key.awayTeam.logo}"/>
-                    <br>${key.awayTeam.team_name}</td>
+                    <br><span>${key.awayTeam.team_name}</span></td>
                 </tr>`;
     }
     table += "</table>";

@@ -69,10 +69,11 @@ tbody tr{
 }
 
 
-img{
+td img{
     justify-content: center;
     align-items: center;
-    width: 130px;  
+    max-width: 100%; 
+    height: auto; 
 }
 
 span{
@@ -95,13 +96,21 @@ span{
         width: 100%;
         margin: auto;
     }
-    tr{
-        width: auto;
+    tbody tr{
+       
+        width: 100%;
+        height: auto;
+        margin: 5px;
+        left: 0vmin;
+        
+    }
+    td img{
+        max-width: 50%; 
+        height: auto; 
         margin: auto;
     }
-    td{
-        width: auto;
-        margin: auto;
+    span{
+        font-size: 1rem;
     }
 
     .ball{
@@ -119,6 +128,7 @@ span{
     #jour{
         font-size: 24px;
     }
+    
     
 
 }
