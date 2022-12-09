@@ -16,11 +16,13 @@ function display(data) {
 
     let table = "<table>";
     for (let key of data) {
+        let hours = new Date(key.event_date).getHours();
+        let minutes = new Date(key.event_date).getMinutes();
         table += `<tr>
                     <td><img src="${key.homeTeam.logo}"/>
                     <br>${key.homeTeam.team_name}</td>
                     <td><span>VS</span>
-                    <br><br>${key.venue}</td>
+                    <br><br>${hours+":"+minutes}</td>
                     <td><img src="${key.awayTeam.logo}"/>
                     <br>${key.awayTeam.team_name}</td>
                 </tr>`;

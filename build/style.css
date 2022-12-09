@@ -96,56 +96,19 @@ span{
 @media all and (max-width: 700px)
 
 {
-    body{
-        margin: auto;
-    }
-    #container{
-        position: relative;
-        top: 5vmin;
-        display: block;
-          
-    }
 
-    .ball{
-        position: relative;
-        display: block;
-        max-width: 100px;
-        height: 100px;
-        display: inline-block;
-        float: right;
-    }
- 
-
-    table{
-        width: auto;
-        top: 5vmin;
-        left: 0vmin;
-    }
+    
+    
+    
     tbody tr{    
         width: auto;
-        margin: 10px;
+        margin-bottom: 40px;
         display: block;
         
     }
 
-    .image{
-        width: 200px;
-        height: 200px;
-        float: none;
-    }
     
-    #jour{
-        width: auto;
-        top: 5vmin;
-        font-size: 24px;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-    }
-    #container{
-        width: 100%;
-        display: block;
-    }
+    
+    
 
 }
