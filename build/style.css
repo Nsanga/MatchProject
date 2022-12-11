@@ -124,9 +124,9 @@ span{
     }
 
     .ball{
-        max-width: 100px;
-        height: 100px;
-        float: right;
+        max-width: 70px;
+        height: 70px;
+        display: flex;
     }
     
 
@@ -136,8 +136,10 @@ span{
         float: none;
     }
     #jour{
-        font-size: 20px;
-        top:5vmin;
+
+        text-align: center;
+        font-size: 12px;
+        top:10vmin;
     }
 
     #stade{
