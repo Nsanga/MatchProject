@@ -6,35 +6,36 @@ html {
 
 #container{
     position: relative;
-    top: 5vmin;
+    display: flex;
+    flex-direction: column;
       
+}
+.header{
+    display: flex;
+    justify-content:space-between;
+
 }
 .logo{
     width: 70px;
     height: 100px;
-    float: left;
-    margin-top: -3vmin;
-    margin-left: 5vmin;
     background-size: 100% 100%;
     background-image: url(assets/logo.png);
 }
 .ball{
-    position: relative;
     width: 70px;
     height: 70px;
-    justify-content: center;
-    float: right;
-    margin-right: 5vmin;
     background-size: 100% 100%;
     background-image: url(http://d3ugyf2ht6aenh.cloudfront.net/stores/001/859/841/products/copia_de_design_sem_nome-removebg-preview1-3b415c23aa7438d15716549740984260-640-0.png);
 }
 
 #jour{
-    font-size: 2rem;
+    font-size: 3rem;
     position: relative;
     font-weight: bold;
-    text-align: center;
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 table{
     width: auto;
